@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Store E-Commerce</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="e-commerce-icon-linear-vector.jpg">
+    <style>
+        body{
+            background-image: url('pngtree-technology-background-image-image_264091.jpg');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="cstore">C Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+
+        <section id="products">
+            <h2 style="color:rgb(7, 7, 7); justify-content:center; margin-left:600px;font-size: 30px;">Product Catalog</h2>
+            <div id="product-list">
+                <!-- Product items will be populated here by JavaScript -->
+            </div>
+        </section>
+<!-- Popup Modal -->
+<div id="product-list"></div>
+
+    <!-- Popup Modal -->
+    <div id="product-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-image" src="" alt="" style="width: 200px;">
+            <p id="popup-description"></p>
+            <p id="popup-price"></p>
+            <p id="popup-specifications"></p>
+        </div>
+    </div>
+       
+    </main>
+
+    <footer>
+        <p >&copy; 2024 C Store</p>
+    </footer>
+
+    <script src="products.js"></script>
+</body>
+</html>

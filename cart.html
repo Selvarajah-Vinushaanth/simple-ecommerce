@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Store E-Commerce</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="e-commerce-icon-linear-vector.jpg">
+
+    <style>
+        body{
+            background-image: url('pngtree-technology-background-image-image_264091.jpg');
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>C Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+
+        
+
+        <section id="cart">
+            <h2 class="cart" style="margin-left:680px">Your Cart</h2>
+            <br>
+            <div id="cart-items">
+                <!-- Cart items will be populated here by JavaScript -->
+            </div>
+            <!-- Cart Page HTML -->
+<div id="cart-items"></div>
+<br>
+<button onclick="checkout()" style="margin-left: 695px;">Checkout</button>
+<div id="receipt" style="display: none;"></div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 C Store</p>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script>
+        function checkout(){
+            window.location.href = "checkout.html";
+
+
+
+        }
+    </script>
+</body>
+</html>

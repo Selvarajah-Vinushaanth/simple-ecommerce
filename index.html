@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="icon" href="e-commerce-icon-linear-vector.jpg">
+    <style>
+        body{
+            background-color: rgb(100, 100, 100);
+            background-image:url("OIP (1).png");
+            background-attachment: scroll;
+            background-repeat: repeat;
+            border-radius: 15px;
+        }
+        h1{
+            margin-top: 200px;
+            color:rgb(0, 0, 0);
+            font-size:100px;
+        }
+        .para{
+            color:rgb(184, 187, 194);
+            font-size: 40px;;
+        }
+        .beautiful-button {
+    background-color: #060f18; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 15px 30px; /* Padding for size */
+    font-size: 16px; /* Text size */
+    font-family: 'Arial', sans-serif; /* Font family */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover and Focus Effects */
+.beautiful-button:hover,
+.beautiful-button:focus {
+    color:black;
+    background-color: #ffffff; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+    outline: none; /* Remove default outline */
+}
+
+/* Active State */
+.beautiful-button:active {
+    background-color: #4d5256; /* Even darker blue when clicked */
+    transform: scale(0.98); /* Slightly shrink button */
+}
+
+    </style>
+</head>
+<body>
+    <h1><center>Welcome to ElectroMart Online Store!</center></h1>
+    <b><center><p class="para">Discover a wide range of consumer electronics and toys. Enjoy exclusive deals and top-notch customer service!
+    </p></center></b>
+    <br>
+    <button class="beautiful-button" style="justify-content: center; margin-left: 45%;" onclick="move()">Dive Here</button>
+    
+
+    <script>
+        function move(){
+            window.location.href = "products.html";
+        }
+        
+    </script>
+    
+</body>
+</html>
